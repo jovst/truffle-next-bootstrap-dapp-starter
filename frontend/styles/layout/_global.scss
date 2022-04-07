@@ -1,0 +1,45 @@
+body{
+  background-color: $body-bg;
+}
+
+.container{
+  padding: 2% 10% 2% 10%;
+}
+
+#content{
+  margin-top: 100px;
+}
+
+/* BUTTONS */
+
+.btn {
+  height: 50px;
+  min-width: 140px;
+  text-transform: uppercase;
+
+   &-primary{
+     background-color: $primary;
+     border-color: $primary;
+
+     &:active, &:focus, &:hover{
+       background-color: rgba(21, 29, 59, 0.7);
+       border-color: $primary;
+     }
+   }
+
+  &-logout{
+    min-width: 50px;
+    min-height: 100%;
+    background-color: #D82148;
+    border-color: #D82148;
+
+    &:active, &:focus, &:hover{
+      background-color: rgba(216, 33, 72, 0.7);
+      border-color: #D82148;
+    }
+  }
+
+
+
+}
+

@@ -1,0 +1,11 @@
+.account-container{
+  background-color: $primary;
+  color: $white;
+  padding: 0 0 0 30px;
+
+  &.address-img{
+    cursor: pointer;
+  }
+
+}
+
