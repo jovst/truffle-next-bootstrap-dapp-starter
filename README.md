@@ -67,12 +67,12 @@ Steps to run the SimpleStorage smart contract locally:
 ## dApps Front End
 The front-end code of the dApps is located in `frontend` directory. It is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and supports React Bootstrap 5 and SASS/SCSS.
 
-The client is created by derived/adapted the codes from the following excellence articles:
+The frontend is created by derived/adapted the codes from the following excellence articles:
 - [Build a Web3 Dapp in React & Login with MetaMask](https://dev.to/jacobedawson/build-a-web3-dapp-in-react-login-with-metamask-4chp)
 - [Global State Using Only React Hooks with the Context API (TypeScript Edition)](https://javascript.plainenglish.io/global-state-using-only-react-hooks-with-the-context-api-typescript-edition-ada822fc282c)
 - [Build Your First Solidity Dapp With Web3.js and MetaMask](http://blog.adnansiddiqi.me/build-your-first-solidity-dapp-with-web3-js-and-metamask/)
 
-Steps to run the client locally:
+Steps to run the frontend locally:
 1. Install dependencies.
     ```bash
     npm i
@@ -80,7 +80,7 @@ Steps to run the client locally:
     yarn
     ```
 
-2. Create the `.env.local` file in the `client` directory and define the following environment variables:
+2. Create the `.env.local` file in the `frontend` directory and define the following environment variables:
     ```
     NEXT_PUBLIC_SIMPLE_STORAGE_CONTRACT_ADDRESS=0x...
     NEXT_PUBLIC_INFURA_PROJECT_ID=YOUR_INFURA_PROJECT_ID
@@ -95,16 +95,14 @@ Steps to run the client locally:
     # or
     yarn dev
     ```
-   Open [http://localhost:3000](http://localhost:3000) with your browser, you will see the screen of the React client:
+   Open [http://localhost:3000](http://localhost:3000) with your browser, you will see the screen of the React frontend:
    ## Connect page
    ![Connect Modal](https://github.com/jovst/truffle-nextjs-bootstrap-dapp-starter/blob/main/frontend/public/doc/modal.png?raw=true "Connect Modal")
    ## Authenticated page
    ![Authenticated Screen](https://github.com/jovst/truffle-nextjs-bootstrap-dapp-starter/blob/main/frontend/public/doc/logged-in.png?raw=true "Logged In Screen")
 
 
-3. Update the value of the `contractAddress` of the [client/public/static.html](client/public/static.html#L101).
-
-4. Run with MetaMask
+3. Run with MetaMask
 
    As `truffle develop` exposes the blockchain onto port `9545`, you'll need to add a Custom RPC network of `http://localhost:9545` in your MetaMask to make it work.
 
