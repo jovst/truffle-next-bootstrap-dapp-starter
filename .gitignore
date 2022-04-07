@@ -1,0 +1,61 @@
+### SolidityTruffle ###
+# depedencies
+
+.idea
+node_modules
+
+# testing
+coverage
+
+# production
+build
+build_webpack
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+.truffle-solidity-loader
+.vagrant/**
+blockchain/geth/**
+blockchain/keystore/**
+blockchain/history
+
+#truffle
+.tern-port
+yarn.lock
+package-lock.json
+
+### NextJS ###
+# Next build dir
+/frontend/.next/
+
+# dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# testing
+/frontend/coverage
+
+# next.js
+/frontend/out/
+
+# production
+/frontend/build
+
+# misc
+/frontend/*.pem
+
+# debug
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/.pnpm-debug.log*
+
+# local env files
+/frontend/.env*.local
+# vercel
+/frontend/.vercel
+# typescript
+/frontend/*.tsbuildinfo

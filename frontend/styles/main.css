@@ -1,0 +1,71 @@
+.topBarContainer{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+}
+
+#content{
+    margin-top: 100px;
+}
+
+.btn-primary {
+    height: 50px;
+    min-width: 140px;
+    text-transform: uppercase;
+    background-color: #151D3B;
+    border-color: #151D3B;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover{
+    background-color: rgba(21, 29, 59, 0.7);
+    border-color: #151D3B;
+}
+body{
+    background-color: #ECECEC;
+}
+
+.green{
+    background-color: #6EBF8B ;
+}
+
+.btn-logout{
+    min-width: 50px;
+    min-height: 100%;
+    background-color: #D82148;
+    border-color: #D82148;
+}
+
+.btn-logout:active, .btn-logout:focus, .btn-logout:hover{
+    background-color: rgba(216, 33, 72, 0.7);
+    border-color: #D82148;
+}
+
+.provider-card{
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.account-container{
+    background-color: #151D3B;
+    color: white;
+    padding: 0 0 0 30px;
+}
+
+.container{
+    padding: 2% 10% 2% 10% ;
+}
+
+.loading-screen-container{
+    width: 100%;
+    height: 500px;
+}
+
+.address-img{
+    cursor: pointer;
+}
