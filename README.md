@@ -97,12 +97,9 @@ Steps to run the client locally:
     ```
    Open [http://localhost:3000](http://localhost:3000) with your browser, you will see the screen of the React client:
    ## Connect page
-   ![Connect Screen](https://github.com/jovst/truffle-nextjs-bootstrap-dapp-starter/tree/main/frontend/public/doc/connect.png "Connect Screen")
-   
-   ![Connect Modal](https://github.com/jovst/truffle-nextjs-bootstrap-dapp-starter/tree/main/frontend/public/doc/modal.png "Connect Modal")
-
+   ![Connect Modal](https://github.com/jovst/truffle-nextjs-bootstrap-dapp-starter/blob/main/frontend/public/doc/modal.png?raw=true "Connect Modal")
    ## Authenticated page
-   ![Authenticated Screen](https://github.com/jovst/truffle-nextjs-bootstrap-dapp-starter/tree/main/frontend/public/doc/logged-ing.png "Logged In Screen")
+   ![Authenticated Screen](https://github.com/jovst/truffle-nextjs-bootstrap-dapp-starter/blob/main/frontend/public/doc/logged-in.png?raw=true "Logged In Screen")
 
 
 3. Update the value of the `contractAddress` of the [client/public/static.html](client/public/static.html#L101).
